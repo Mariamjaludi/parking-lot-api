@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :customer_info_portals
+  resources :exit_panels
+  resources :entrance_panels
+  resources :parking_display_boards
   resources :parking_tickets
   resources :customers
   resources :vehicles

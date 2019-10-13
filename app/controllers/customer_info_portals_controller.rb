@@ -1,0 +1,2 @@
+class CustomerInfoPortalsController < ApplicationController
+end
