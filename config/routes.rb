@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :vehicles
   resources :parking_spots
   resources :parking_floors
   resources :parking_lots
