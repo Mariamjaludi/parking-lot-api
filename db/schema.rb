@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_13_225545) do
+ActiveRecord::Schema.define(version: 2019_10_13_230008) do
+
+  create_table "parking_floors", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "parking_lot_id"
+  end
 
   create_table "parking_lots", force: :cascade do |t|
     t.string "address"

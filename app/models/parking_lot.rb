@@ -1,5 +1,5 @@
 class ParkingLot < ApplicationRecord
-  # has_many :parking_floors
+  has_many :parking_floors
   # has_many :parking_spots, through: :parking_floors
   # has_one :parking_attendant_portal
   # has_one :entrance_panel
