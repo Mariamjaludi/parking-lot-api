@@ -1,7 +1,7 @@
 class ParkingFloor < ApplicationRecord
   belongs_to :parking_lot
-  # has_one :parking_display_board
-  # has_one :customer_info_portal
+  has_one :parking_display_board
+  has_one :customer_info_portal
   has_many :parking_spots
 
   def update_display_board()

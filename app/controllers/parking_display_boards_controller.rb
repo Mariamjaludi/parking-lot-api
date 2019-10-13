@@ -1,0 +1,2 @@
+class ParkingDisplayBoardsController < ApplicationController
+end

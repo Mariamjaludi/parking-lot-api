@@ -1,0 +1,2 @@
+class EntrancePanelsController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class ExitPanelsController < ApplicationController
+end
